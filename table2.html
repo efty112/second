@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Invoice</caption>
+
+        <thead>
+            <tr>
+                <th>Item/Disc.</th>
+                <th>Qty</th>
+                <th>@</th>
+                <th>price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Paperclips(Box)</td>
+                <td>100</td>
+                <td>10</td>
+                <td>1.23</td>
+            </tr>
+
+            <tr>
+                <td>paper(Case)</td>
+                <td>45</td>
+                <td>56</td>
+                <td>120</td>
+            </tr>
+
+            <tr>
+                <td>Wastepaper Baskets</td>
+                <td>212</td>
+                <td>35</td>
+                <td>55</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Subtotal</td>
+                <td>610.88</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>7%</td>
+                <td>42.76</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>653.47</td>
+            </tr>
+        </tfoot>
+    </table>
+<br>
+    <table>
+        <caption>Favourite and least Favourite</caption>
+        <thead>
+            <th></th>
+            <th></th>
+            <th>Bob</th>
+            <th>Alice</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="2">Favourite</th>
+                <th>Color</th>
+                <td>Blue</td>
+                <td>Purple</td>
+            </tr>
+                <th>Flavour</th>
+                <td>Banana</td>
+                <td>Chocolate</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Least Favourite</th>
+                <th>Color</th>
+                <td>Yellow</td>
+                <td>Pink</td>
+            </tr>
+            <tr>
+                <th>Flavour</th>
+                <td>Mint</td>
+                <td>walnut</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

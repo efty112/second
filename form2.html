@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        input{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h2>Fill up the Form</h2>
+        <form>
+            <label for="name">Your Name : </label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+        <br>
+
+        <label for="email">Your Email : </label>
+            <input type="email" name="email" id="email" placeholder="Your Email">
+        <br>
+
+        <label for="date">Birth Date : </label>
+            <input type="date" name="date" id="date">
+        <br>
+
+        <label for="number">Phone : </label>
+            <input type="number" name="number" id="number" placeholder="your phone number" maxlength="11">
+        <br>
+
+        Gender :
+        <input type="radio" name="male" id="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" name="male" id="female">
+        <label for="Female">Female</label>
+        
+        <input type="radio" name="male" id="other">
+        <label for="others">others</label>
+
+
+        What do you prefer the most?
+        <select name="" id="">
+            <option value="Tea">Tea</option>
+            <option value="Coffee">Coffee</option>
+            <option value="Pot">Pot</option>
+            <option value="Water">Water</option>
+        </select>
+
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">Agree
+        <br>
+        <fieldset>
+            <legend>Pick one : </legend>
+            <input type="radio" name="p" id="chitoi">
+            <label for="chitoi">chitoi</label>
+            
+            <br>
+            <input type="radio" name="p" id="vapa">
+            <label for="vapa">vapa</label>
+            
+            <br>
+            <input type="radio" name="p" id="pati">
+            <label for="pati">pati</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Instructions: </legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Sign Up">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+    </main>
+</body>
+</html>

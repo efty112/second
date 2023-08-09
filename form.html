@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalar Pitha</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section>
+            <h3>Please Fill up the from</h3>
+            <form>
+                <label for="Name">Your Name:
+                    <input type="text" placeholder="Your Name" id="Name">
+                </label>
+
+                <label for="email"> Your Email : 
+                    <input type="email" placeholder="your email" id="email">
+                </label>
+
+                <label for="phone">Your Phone :
+                    <input type="number" placeholder="your phone number" id="phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One :</legend>
+
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">chitoi
+                    </label>
+
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa"> Vapa
+                    </label>
+
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri"> Puri
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick One or more vorta :</legend>
+
+                    <label for="sorisha">
+                        <input type="checkbox" name="shorisha" id="shorisha">shorisha
+                    </label>
+
+                    <label for="shutki">
+                        <input type="checkbox" name="shutki" id="shutki">Shutki
+                    </label>
+
+                    <label for="pata">
+                        <input type="checkbox" name="pata" id="pata">Pata
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Instructions : </legend>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="intro"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
